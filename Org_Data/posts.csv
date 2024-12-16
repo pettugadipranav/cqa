@@ -1,0 +1,710 @@
+owner_display_name,last_editor_display_name,last_edit_date,post_type_id,is_accepted_answer,up_vote,down_vote,score,parent_id,views,acc_ans_count,comment_count,post_title,content_license,body_text,creation_date,closed_date
+,,2010-09-14T22:32:25.190,2,0,4,2,167,1,,1,17,,"CC BY-SA 2.5","<p>Only if the comment describes what the code is doing.</p>
+
+<p>If I wanted to know what was happening in a method or block, I would read the code. I would hope, anyway, that any developers working on a given project were at least familiar enough with the development language to read what is written and understand what it is doing.</p>
+
+<p>In some cases of extreme optimization, you might be using techniques that makes it difficult for someone to follow what your code is doing. In these cases, comments can and should be used to not only explain why you have such optimizations, but what the code is doing. A good rule of thumb would be to have someone else (or multiple other people) familiar with the implementation language and project look at your code - if they can't understand both the why and the how, then you should comment both the why and the how.</p>
+
+<p>However, what's not clear in the code is why you have done something. If you take an approach that might not be obvious to others, you should have a comment that explains why you made the decisions that you did. I would suspect that you might not even realize that a comment is needed until after something like a code review, where people want to know why you did X instead of Y - you can capture your answer in the code for everyone else who looks at it in the future.</p>
+
+<p>The most important thing, though, is to change your comments when you change your code. If you change an algorithm, be sure to update the comments with why you went with algorithm X over Y. Stale comments are an even bigger code smell.</p>
+",2010-09-01T19:45:33.183,
+,,2022-10-04T09:42:35.097,1,0,5,5,24,,1992,9,3,"How do I cope with a manager who’s always interfering in what I do, but doesn’t really understand it?","CC BY-SA 4.0","<p>We've all had them, managers who have either come from sales or last looked at code 10 or more years ago but think they know how to write code.</p>
+<p>What can I do to give the impression that I'm grateful for their intervention, but keep it as short as possible so I can get on with my work?</p>
+<p>Or, should I be engaging more with the manager to educate them with modern coding techniques and practices? After all, a manager who understands these will be able to talk sensibly to clients and more senior management when discussing the project and its timescales.</p>
+",2010-09-01T19:58:10.203,
+,,,2,0,2,2,12,73,,4,1,,"CC BY-SA 2.5","<p>Ask them what they want you to drop so you'll have the time to squeeze this latest request in.</p>
+
+<p>I've not had to do this for a while, and when I did, I used it sparingly otherwise it loses it's potency.</p>
+
+<p>I found it most effective towards the end of the phase when you were tidying stuff up or doing the little improvements and tweaks you'd agreed on in the planning stage.</p>
+",2010-09-01T20:17:08.723,
+,,2010-09-12T12:55:27.740,1,0,2,0,58,,20584,5,3,"As a software engineer, who should I be following on Twitter?","CC BY-SA 2.5","<p>Who in the software engineering and software development fields uses Twitter to tweet about relevant happenings in the field?</p>
+",2010-09-01T20:35:47.520,2011-07-13T13:42:05.633
+,,,2,0,2,8,17,163,,4,3,,"CC BY-SA 2.5","<p><a href="http://rads.stackoverflow.com/amzn/click/0735619670">Code Complete: A Practical Handbook of Software Construction by Steve McConnell</a></p>
+
+<p>This book is probably the definitive book on software construction. It discusses topics such as the foundations for construction (requirements, architecture, and design), choosing a programming language, choosing a development methodology, designing classes and objects, writing high-quality functions and methods, defensive programming, the use and naming of variables, data types, organizing and formatting statements, collaborative programming, testing, debugging, refactoring, and development tools.</p>
+
+<p>This is a must have on every software engineer's shelf, even if you aren't explicitly writing code.</p>
+",2010-09-01T21:03:25.767,
+,,,2,0,3,6,19,163,,9,0,,"CC BY-SA 2.5","<p><a href="http://rads.stackoverflow.com/amzn/click/020161622X">The Pragmatic Programmer: From Journeyman to Master - Andrew Hunt and David Thomas</a></p>
+
+<p>This book is all about how to write code that works and is maintainable. A key concept is being practical. Everything in the book is boiled down to 70 tips that are easy to remember that help you deliver better, higher-quality software.</p>
+",2010-09-01T21:11:44.213,
+,,2010-09-02T13:50:30.520,2,0,9,6,24,188,,5,2,,"CC BY-SA 2.5","<p>Worry about performance when it becomes a problem.</p>
+
+<p>If you write a small app to process 10,000 line files and you get a 1,000,000 line file every 100th file, it probably doesn't matter that it takes longer to process that one file. However, if you are regularly getting files that are 5-10 times larger than initially and your application is taking too long to do its job, then you start profiling and optimizing.</p>
+
+<p>Now, I said "too long to do its job". That is up to the user or sponsoring organization to decide. If I'm doing a task and it takes me 5 minutes to do something when it took me 3 without the software or with a different tool, I'd probably file a bug report or maintenance request to have that improved.</p>
+
+<p>If you are the user, how long you want your software to take to do its job is up to you - only you can decide if you want it done faster or if you are willing to wait longer to have more readable code.</p>
+",2010-09-01T21:26:38.360,
+,,,2,0,6,7,7,192,,6,0,,"CC BY-SA 2.5","<p>By one definition it's more maintainable, as any breaking change is more likely to be caught by the tests.</p>
+
+<p>However, the fact that code passes the unit tests doesn't mean it's intrinsically of higher quality. The code might still be badly formatted with irrelevant comments and inappropriate data structures, but it can still pass the tests.</p>
+
+<p>I know which code I'd prefer to maintain and extend.</p>
+",2010-09-01T21:27:30.723,
+,,,2,0,9,6,59,370,,6,0,,"CC BY-SA 2.5","<p>Having just got a new job at nearly 50 in the UK I can say that it's possible and you're never too old.</p>
+
+<p>There are two approaches - both rely on your skills being relevant to the job.</p>
+
+<ol>
+<li><p>Stick with what you know and become a guru. This is risky as the number of jobs requiring "old" technologies are becoming fewer and further between as each year passes. However, as people retire from such jobs there will be openings.</p></li>
+<li><p>Keep refreshing your skills. I moved into Silverlight last year, which is what got me this job. That and my previous team leadership roles which my new employer saw as relevant.</p></li>
+</ol>
+",2010-09-02T13:46:34.090,
+,,,2,0,9,8,2,616,,3,0,,"CC BY-SA 2.5","<p>I try to have two or three decently sized tasks before me at all times, so if I get stuck on one, I can take a break and work on the other. This allows me to be productive towards some goal, even if it isn't my primary task at the time. However, if I hit a wall really hard, sometimes I just need to walk away - take 15 minutes, grab a cup of coffee or a soda, take a walk, etc.</p>
+",2010-09-03T11:43:32.620,
+,,2015-08-06T19:42:32.377,2,0,1,5,421,648,,2,20,,"CC BY-SA 3.0","<p>From <a href="http://rads.stackoverflow.com/amzn/click/020161622X">The Pragmatic Programmer: From Journeyman to Master</a>:</p>
+
+<blockquote>
+  <p><strong>What to Say When Asked for an Estimate</strong></p>
+  
+  <p>You say "I'll get back to you."</p>
+  
+  <p>You almost always get better results if you slow the process down and spend some time going through the steps we describe in this section. Estimates given at the coffee machine will (like the coffee) come back to haunt you.</p>
+</blockquote>
+
+<p>In the section, the authors recommend the following process:</p>
+
+<ul>
+<li>Determine the accuracy that you need. Based on the duration, you can quote the estimate in different precision. Saying "5 to 6 months" is different than saying "150 days". If you slip a little into the 7th month, you're still pretty accurate. But if you slip into the 180th or 210th day, not so much.</li>
+<li>Make sure you understand what is being asked. Determine the scope of the problem.</li>
+<li>Model the system. A model might be a mental model, diagrams, or existing data records. Decompose this model and build estimates from the components. Assign values and error ranges (+/-) to each value.</li>
+<li>Calculate the estimate based on your model.</li>
+<li>Track your estimates. Record information about the problem you are estimating, your estimate, and the actual values.</li>
+<li>Other things to include in your estimate are developing and documenting requirements or changes to requirements specifications, creating or updating design documents and specifications, testing (unit, integration, and acceptance), creating or updating user's manuals or READMEs with the changes. If 2 or more people working together, there's overhead of communication (phone calls, emails, meetings) and merging source code. If it's a long task, account for things like other work, time off (holidays, vacation, sick time), meetings, and other overhead tasks when picking a delivery date.</li>
+</ul>
+",2010-09-03T14:15:39.543,
+,,2010-09-29T22:52:34.303,1,0,5,0,38,,15623,6,3,"What's the worst question you were ever asked at interview?","CC BY-SA 2.5","<p>It doesn't have to be programming or software development related, but just asked during an interview for an IT related job.</p>
+
+<p>I know some "left field" questions are meant to see how the candidate copes with unexpected and novel situations, but here I'm looking for a question that appeared to be completely unrelated to the job they were interviewing you for, or something that made you think "what useful information could they possibly get from my answer to <em>that</em> question?".</p>
+",2010-09-03T19:24:44.867,2011-06-22T13:31:06.090
+,,,2,0,9,8,15,779,,3,18,,"CC BY-SA 2.5","<p>The worst I was ever asked was:</p>
+
+<blockquote>
+  <p>Why are <a href="http://en.wikipedia.org/wiki/Manhole">manhole</a> covers circular?</p>
+</blockquote>
+
+<p>Aside from the fact that most aren't this completely threw me.</p>
+
+<p>The answer the interview wanted?</p>
+
+<blockquote>
+  <p>So if you drop it over the hole it can't fall through.</p>
+</blockquote>
+
+<p>This was about 20 years ago now and I <em>still</em> remember it.</p>
+",2010-09-03T19:27:05.523,
+,,,2,0,1,6,29,827,,6,3,,"CC BY-SA 2.5","<p>Yes, they should be.</p>
+
+<p>The relationship between computer science and software engineering is the same as the relationship between physics and mechanical engineering. One provides the theoretical background while the other takes those theories, along with good engineering principles, and applies them to the design and implementation of software.</p>
+
+<p>You need both in order to produce new and better software. A good computer science education trains people to produce new and better algorithms, data structures, programming languages and paradigms, compilers, and a number of other things that can be used to enhance software systems. A good software engineering education, on the other hand, trains you to take these tools and knowledge obtained through a scientific study of computation, along with a knowledge of the software development lifecycle and process models to actually build the system that a customer wants and needs.</p>
+",2010-09-04T08:48:20.793,
+,,,2,0,2,1,8,568,,1,6,,"CC BY-SA 2.5","<p>I think that this is another case where "it depends".</p>
+
+<p>If you're writing applications such as web browsers, word processors etc. where lightning fast performance is not necessarily an issue then this approach has it's merits. By using this approach you can offer your customers a safer, more controlled experience. Not only are you limiting the damage that can be done by malware, but you are also running in a more consistent environment.</p>
+
+<p>It's like the difference between console games and PC games. The former know exactly what hardware they need to work with so can make use of that knowledge whereas the latter have to be able to cope with a wider variety of graphics cards, sound cards, hard disk speeds etc.</p>
+
+<p>However, there will be applications (such as games!) that require the low level access and will still need to be run "natively".</p>
+
+<p>Like managed languages you will have to use the appropriate tool for the job.</p>
+",2010-09-04T11:49:41.493,
+,,,2,0,0,10,14,1095,,8,0,,"CC BY-SA 2.5","<p>I use just enough UML (in terms of both the types of diagrams and the content of the information in the diagram) to get my point across to allow myself or someone else to implement the system or subsystem. And the only reason I use UML is because its a widely known set of symbols that each mean something very specific, so there's no ambiguity - any software engineer should be able to look at the diagram and understand what I'm trying to say about the system.</p>
+",2010-09-06T10:57:28.747,
+,,,2,0,10,4,8,1180,,2,0,,"CC BY-SA 2.5","<p>I came to .NET from C and C++ (with a bit of Java, Ada and Pascal thrown in) so C# was the natural progression for me.</p>
+
+<p>If a job came along that required VB.NET I certainly wouldn't turn it down.</p>
+",2010-09-07T07:39:33.580,
+,,2010-09-07T11:38:49.600,2,0,9,8,4,1189,,4,2,,"CC BY-SA 2.5","<p>I don't think you can become truly language agnostic. I find that I "think" in my current language (at the moment C#).</p>
+
+<p>However, having said that, I think you might be able to separate the design from the code by trying to think in pseudo code rather than a specific language, and actually write it down in this format. This could help you concentrate on the design and architecture decisions rather than the implementation in your current language. The drawback with that - as Simon points out - is that the language and framework you ultimately use will inevitably influence the design. So as your design develops it will become increasingly tied to the language &amp; framework.</p>
+",2010-09-07T11:19:12.417,
+,,2019-03-07T19:17:24.713,2,0,6,7,11,1200,,8,4,,"CC BY-SA 4.0","<p>The book I always see recommended when talking about Scheme or Lisp is <a href="https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html" rel="nofollow noreferrer">The Structure and Interpretation of Computer Programs</a>. It's freely available on that website, and I think it's provided as a PDF if you search around.</p>
+
+<p>I've been meaning to work through it, but I'm not sure when I'll get the time. I can't comment on how good the book actually is, though. But it's been recommended by multiple people, so I'm guessing its pretty good.</p>
+
+<p>If you are interested in other functional programming languages, I've been told that it's rather easy to do the exercises in languages like Haskell or F#. I think there's also a blogger who is working through SICP using Haskell and posting his solutions to the exercises, but I can't find the link right now.</p>
+",2010-09-07T13:03:09.870,
+,,,2,0,8,6,21,1376,,5,0,,"CC BY-SA 2.5","<p>Ultimately if neither the developer nor the tester can reproduce the bug it should be closed but marked as such.</p>
+
+<p>However, how long it takes you to get to that point is debatable.</p>
+
+<p>Some people would argue that if it's not immediately reproducible then it should be closed forthwith.</p>
+
+<p>I usually strive to try to get more information from the originator of the problem. There may be something they forgot in the original report. Having a conversation about the required steps can often reveal the missing information.</p>
+
+<p>One final thought - closed as "no-repro" <em>doesn't</em> mean fixed. If there is a real problem it will reveal itself sooner or later and having all the information you can will help when you can finally reproduce the problem.</p>
+",2010-09-08T21:16:41.647,
+,,2010-09-09T13:06:31.133,2,0,10,2,9,1371,,10,6,,"CC BY-SA 2.5","<p>If the project plan calls for a <strong>single</strong> iteration of design, development, testing and deployment - the classic waterfall - for a project longer than 1 month, I'd run a mile.</p>
+
+<p>You don't need to be fully agile, but having short development cycles allows you to demonstrate progress to everyone (customer, management and developers themselves) and cope with changed requirements when the inevitable happens.</p>
+",2010-09-08T21:43:49.067,
+,,2013-03-02T06:31:46.033,7,0,5,3,0,,,1,0,,"CC BY-SA 3.0","<p>Programmers — Stack Exchange is a site for professional programmers who are interested in getting expert answers on conceptual questions about software development. If you have a question about...</p>
+
+<ul>
+<li>algorithm and data structure concepts</li>
+<li>design patterns</li>
+<li>developer testing</li>
+<li>development methodologies</li>
+<li>freelancing and business concerns</li>
+<li>quality assurance</li>
+<li>software architecture</li>
+<li>software engineering</li>
+<li>software licensing</li>
+</ul>
+
+<p>and it is <strong>not about</strong>...</p>
+
+<ul>
+<li>general workplace issues, office politics, résumé help (check out <a href="http://workplace.stackexchange.com/">The Workplace</a> instead),</li>
+<li>implementation issues or programming tools (ask on <a href="http://www.stackoverflow.com/">Stack Overflow</a> instead),</li>
+<li>what language/technology you should learn next, including <a href="http://blog.stackoverflow.com/2011/08/gorilla-vs-shark/">which technology is better</a>,</li>
+<li>what project you should do next,</li>
+<li>what book you should read next,</li>
+<li><a href="http://meta.programmers.stackexchange.com/questions/588/are-career-advice-questions-useful-to-anyone-except-the-poster/590#590">career advice</a>, salary or compensation,</li>
+<li>personal lifestyle, including relationships, and non-programming activities</li>
+</ul>
+
+<p>...then you're in the right place to ask your question!</p>
+
+<p>Please make sure your question uniquely applies to programmers in general:</p>
+
+<p><img src="https://i.stack.imgur.com/ociNc.png" alt="proper scope for question"></p>
+
+<h2>What about subjective questions?</h2>
+
+<p>Subjective questions are allowed, but subjective does not mean &ldquo;anything goes&rdquo;. <strong>Please keep it professional at all times</strong>. If this is a question you'd be uncomfortable discussing with your colleagues in a work environment, it's probably not appropriate here, either.</p>
+
+<p>All subjective questions are expected to be <em>constructive</em>. How do we define that?  Constructive subjective questions &hellip;</p>
+
+<ul>
+<li>inspire answers that explain “why” and “how”.</li>
+<li>tend to have long, not short, answers.</li>
+<li>have a constructive, fair, and impartial tone.</li>
+<li>invite sharing experiences over opinions.</li>
+<li>insist that opinion be backed up with facts and references.</li>
+<li>are more than just mindless social fun.</li>
+</ul>
+
+<p>Questions that do not meet enough of these six guidelines will be closed as "Not Constructive". Please see the <a href="http://blog.stackoverflow.com/2010/09/good-subjective-bad-subjective">Good Subjective, Bad Subjective</a> and <a href="http://blog.stackoverflow.com/2011/01/real-questions-have-answers/">Real Questions Have Answers</a> blog posts for more details and examples.</p>
+",2010-09-08T22:37:51.210,
+,,2010-12-16T16:41:06.960,2,0,7,1,10,39,,4,1,,"CC BY-SA 2.5","<blockquote>
+  <p>A good algorithm is like a sharp knife - it does exactly what it is supposed to do with a minimum amount of applied effort. Using the wrong algorithm to solve a problem is trying to cut a steak with a screwdriver: you may eventually get a digestible result, but you will expend considerable more effort than necessary, and the result is unlikely to be aesthetically pleasing.</p>
+</blockquote>
+",2010-09-09T01:19:46.173,
+,,2017-06-03T11:59:59.397,2,0,7,2,7,1474,,9,3,,"CC BY-SA 3.0","<p>It's been a while since I read it, but I don't remember anything in the book that wasn't relevant to someone.</p>
+
+<p>What stood out the most was the discussion of process improvement using CMM and CMMI, and no mention of agile processes (although the second edition was printed in 1999, which is a few years before the Manifesto for Agile Software Development and agile development went mainstream). But the book is about people, and people haven't changed that much since the first printing of the book in 1987.</p>
+",2010-09-09T10:49:43.453,
+,,2010-09-09T11:37:05.387,2,0,0,4,43,1750,,8,3,,"CC BY-SA 2.5","<p>You need to get the situation formalised as it shouldn't really have got to this point. However, these things happen so you need to explain to your boss that you created these scripts for personal use, but they've "escaped" into wider circulation. Admit (if necessary) that you were at fault for not bringing this to his attention sooner.</p>
+
+<p>At the very least the scripts should be put under source control "just in case" - then at least if you aren't available (for what ever reason) your co-workers will have access to the scripts.</p>
+
+<p>Then you either need to convince your boss that Python is the way to go for these or accept that you are going to have to re-write them in a supported language. If the cost of documenting the scripts and educating your co-workers in Python is lower than that of the re-write you might even win the argument.</p>
+",2010-09-09T11:32:02.540,
+,,,2,0,10,3,5,1750,,9,5,,"CC BY-SA 2.5","<p>The first thing you need to do is talk with the team and your boss. Right now, you have a huge truck factor (if you got hit by a truck, no one else would easily be able to maintain your scripts). It looks like having scripts to do these tasks are important, but it's also important that anyone who needs to can edit and maintain these scripts. You need to explain how using Python adds value - how it saves time, effort, resources, money, and so on.</p>
+
+<p>Second, get it into the project's version control. Now. Nothing that you produce for a project should be outside of that project's version control, ever.</p>
+
+<p>Be prepared for backlash - people typically don't like change. Running off on your own, using unsupported and unknown (to the team/organization) technologies was a bad idea, without consulting at least the other developers and determining the best (for the project, not just you) way of automating these tasks for everyone to use.</p>
+
+<p>I think this is probably a good case of</p>
+
+<blockquote>
+  <p>It's easier to ask forgiveness than it is to get permission.</p>
+</blockquote>
+
+<p>It sounds like you got the job done, but you are going to have to deal with the repercussions now.</p>
+",2010-09-09T11:33:25.487,
+,,,2,0,2,6,132,1745,,4,5,,"CC BY-SA 2.5","<p>That writing software is easy.</p>
+
+<p>How else do you explain all these projects that run over time and over budget and people (politicians, the media etc.) are still surprised, and customers complain when you tell them that their "small website" (or whatever) will actually take 6 months to develop and cost several thousand dollars (pounds, Euros, [insert currency of choice])</p>
+
+<p>With fuzzy and ever changing requirements I sometimes think that it's amazing that any software ever gets finished!</p>
+
+<p>I know it's a bit more complicated than that ;)</p>
+",2010-09-09T12:06:52.527,
+,,,2,0,0,0,13,1785,,1,3,,"CC BY-SA 2.5","<p>That's it's harder than you think.</p>
+
+<p>While it's easy(ish) to put something together that works when used normally, coping with erroneous input, all the edge and corner cases, possible failure modes etc. is time consuming and will probably be the hardest part of the job.</p>
+
+<p>Then you've got to make the application look good too.</p>
+",2010-09-09T12:21:45.627,
+,,,2,0,5,3,11,2699,,9,1,,"CC BY-SA 2.5","<p>This is from a <em>long</em> time ago (the late 1980s).</p>
+
+<p>The company I worked for wrote a CAD package (in FORTRAN) that ran on various Unix workstations (HP, Sun, Silcon Graphics etc.). We used our own file format to store the data and when the package was started disk space was scarce so there was a lot of bit shifting used to store multiple flags in entity headers.</p>
+
+<p>The type of the entity (line, arc, text etc) was multiplied by 4096 (I think) when stored. In addition this value was negated to indicate a deleted item. So to get the type we had code that did:</p>
+
+<pre><code>type = record[1] MOD 4096
+</code></pre>
+
+<p>On every machine except one this gave ±1 (for a line), ±2 (for an arc) etc. and we could then check the sign to see if was deleted.</p>
+
+<p>On one machine (HP I think) we had a weird problem where the handling of deleted items was screwed up.</p>
+
+<p>This was in the days before IDE's and visual debuggers so I had to insert trace statements and logging to try and track down the problem.</p>
+
+<p>I eventually discovered that it was because while every other manufacturer implemented <code>MOD</code> so that <code>-4096 MOD 4096</code> resulted in <code>-1</code> HP implemented it mathematically correctly so that <code>-4096 MOD 4096</code> resulted in <code>-4097</code>.</p>
+
+<p>I ended up having to go through the entire code base saving the sign of the value and making it positive before performing the <code>MOD</code> and then multiplying the result by the sign value.</p>
+
+<p>This took several days.</p>
+",2010-09-10T21:42:00.580,
+,,,2,0,4,5,11,2715,,3,1,,"CC BY-SA 2.5","<p>I did read somewhere that the authors of some book wanted their code formatted like this:</p>
+
+<pre><code>if (you.hasAnswer())
+{
+    you.postAnswer();
+}
+else
+{
+    you.doSomething();
+}
+</code></pre>
+
+<p>But space constraints from their publisher meant that they had to use this:</p>
+
+<pre><code>if (you.hasAnswer()) {
+    you.postAnswer();
+} else {
+    you.doSomething();
+}
+</code></pre>
+
+<p>Now I don't know whether that's true (as I can't find it any more), but the latter style is very prevalent in books.</p>
+
+<p>On a personal level I prefer the brackets on a separate line as:</p>
+
+<p>a) they indicate a new scope<br>
+b) it's easier to spot when you've got a mismatch (though this is less of an issue in an IDE that highlights errors for you).</p>
+",2010-09-11T14:06:20.317,
+,,2010-09-11T15:49:28.500,2,0,0,1,3,2185,,4,1,,"CC BY-SA 2.5","<p>The right time is when the product is ready for each stage.</p>
+
+<p>It's up to you and the customer to define "ready". This might be when a certain number of bugs have been found and fixed or how much documentation has been completed. It all depends on the application and what the customer is expecting.</p>
+
+<p>I'll ignore the alpha phase for now.</p>
+
+<p>A beta phase is usually when you think you're feature complete <strong>for this release</strong> and require feedback on the fine details of your application. This is often seen as public testing, but that depends on your application. A small scale application will be beta tested by a few select users, a large application (like Visual Studio, or Stack Overflow) will be beta tested by anybody and everybody willing to help.</p>
+
+<p>The official release is when you (and your customers/users) are confident that your product can do the job it's designed for. It might not have all it's features, but those you implemented for <strong>this release</strong> will be.</p>
+
+<p>Alpha testing is more nebulous. It means different things to different people. You might release an early version that not feature complete because you need more user feedback on one particular aspect. You might also need to get something "out there" to meet a specific demand and can't afford to wait.</p>
+",2010-09-11T15:43:47.740,
+,,,2,0,9,2,40,2948,,5,11,,"CC BY-SA 2.5","<p>We had daily standups at my first job. Well, with all the co-ops/interns/temps, it was actually on the long side - usually around 30 minutes.</p>
+
+<p>But the idea of a short, timeboxed, daily meeting helped a lot just to know what other people were stuck on - and if it was something I was working on, I could reprioritize my tasks to finish what they needed to continue sooner. It also gave everyone a chance to know what everyone was working on so if someone had an emergency, everyone was at least aware of what was going on - reducing a truck factor is always a good thing.</p>
+
+<p>Honestly, every day might be a little extreme in some cases. But the idea of short, regular meetings for everyone to stay on the same page is a valuable addition to any process.</p>
+",2010-09-12T00:56:39.723,
+,,2017-10-26T22:27:45.293,2,0,7,2,5,3033,,6,5,,"CC BY-SA 3.0","<p>Overall, I always keep the <a href="https://ethics.acm.org/code-of-ethics/software-engineering-code/" rel="nofollow noreferrer">Software Engineering Code of Ethics</a> in mind. However, to address some of your particular points:</p>
+
+<blockquote>
+  <p>Do you accept known bugs as a risk for the end-user?</p>
+</blockquote>
+
+<p>It depends. If it's a mission critical system and the bug is a showstopper, that's unacceptable. However, if it's a minor flaw that has workarounds in a non-critical system, that's acceptable. I always consider the impact of the problem on the system and to the users (and people affected by) the system.</p>
+
+<blockquote>
+  <p>Do you always secure and encrypt private data delivered end-users in your web application?</p>
+</blockquote>
+
+<p>If I was on a project where this applied, I would consult any applicable laws and guidelines and follow them. If there were no applicable guidelines, I would err on the side of caution and use some form of security. Of course, you have to weigh a number of factors, ranging from how the system is deployed (physical locations, connections between nodes) and performance of any algorithms or techniques used.</p>
+
+<blockquote>
+  <p>Did you ever write software that is legal but morally controversial, like for weapons industry.</p>
+</blockquote>
+
+<p>All of my jobs (as you can see in my profile) have been in the defense industry (and I'm also planning on working in the defense or intelligence industries after graduation), including work on ISR systems and Command and Control systems. I don't understand anyone, especially really good software engineers with skills that these projects need, who says that they won't build such systems. The way I see it, by bringing the best software engineering practices to these systems, you are only making them safer and more reliable. And these systems that involve life and death need to be as safe and reliable as possible.</p>
+",2010-09-12T15:24:34.180,
+,,2010-09-13T02:08:57.707,2,0,5,8,9,3139,,6,0,,"CC BY-SA 2.5","<p>As a technical person, I don't feel that you should have such a section that just enumerates skills, except in rare cases. Any technologies, languages, frameworks, and tools that you are familiar with should be listed as part of your education, work experience, or in a personal projects section. The only time you should have a section that uses keywords to describe skills is when applying for government (state or federal) jobs, and maybe jobs with government contractors.</p>
+
+<p>I think the idea is that if you haven't worked with a technology on a project, you probably don't know it. If you have worked with a technology on a previous or ongoing project, you either know it or can relearn it. I would be more interested in what you have done rather than what you say you know - I can get at what you know by asking about your projects and solutions to problems.</p>
+",2010-09-13T02:01:26.603,
+,,,2,0,4,4,3,3233,,8,0,,"CC BY-SA 2.5","<p>I've "released" (well uploaded to my website) a couple of desktop applications for free because I didn't think anyone would be prepared to pay for them.</p>
+
+<p>They're very small applications and I couldn't justify charging more than £10 or so for them anyway. I didn't expect to get many users (I know I have at least one) so it didn't seem worth setting up the PayPal integration on my website to collect payments.</p>
+
+<p>If I ever write something larger that I think will have a market then I will look harder and longer at getting payment for it.</p>
+",2010-09-13T14:16:24.360,
+,,2010-09-13T20:30:43.823,2,0,9,10,33,3272,,1,7,,"CC BY-SA 2.5","<p><strong>Assuming that this was for a permanent position</strong> it would raise a warning in my mind. Basically I don't want to be training this person's replacement in a year's time.</p>
+
+<p>However, I would look at the circumstances for each move. Were any redundancies? Was the move due to the relocation of a spouse? etc. If there were legitimate reasons for most of the moves then I wouldn't treat them any differently to any other candidate.</p>
+
+<p>Each case has to be taken on it's own merits.</p>
+
+<p><strong>If this was for a contract role</strong> then a job every 1-2 years is quite a long time, particularly if the norm is for contracts that last 6 months or less.</p>
+",2010-09-13T16:35:05.343,
+,,,2,0,6,9,57,3317,,4,3,,"CC BY-SA 2.5","<p>While the terms can be and often are interchangeable, I view a developer as someone who's involved in the whole process from requirements gathering, through specification and coding to testing and, yes, support. They might not be fully involved in all stages all of the time.</p>
+
+<p>A programmer is someone who just concentrates on the coding and has little involvement in the rest of the process. This may be their choice of course.</p>
+
+<p>As @sunpech points out in his comment most people writing software these days are (or should be) developers. You have to know much more than just how to code to write good software.</p>
+",2010-09-13T20:04:47.533,
+,,2021-05-18T10:21:39.803,2,0,3,4,22,3519,,1,6,,"CC BY-SA 4.0","<p>Basically by writing code in that language.</p>
+<p>You need to have a good example application to study/modify otherwise you're starting off on the wrong foot and you might never recover. Years ago the company I worked for at the time decided to use Ada for their next product, but as all the developers used FORTRAN in the previous product we ended up creating FORTRAN constructs in Ada. We never really recovered from that.</p>
+<p>Having access to the documentation and Stack Overflow is essential otherwise you'll potentially miss the important features of the language. On that score find out who are the Gurus in the language and read their blogs, these will often discuss the new features of a language/framework and also the obscurer areas you'll never find by yourself. If you can't find out who they are ask here!</p>
+<p>In an ideal world I'd like to learn by myself for a while and then be evaluated, but I've never managed that yet.</p>
+",2010-09-14T11:54:59.007,
+,,,2,0,2,8,9,1701,,3,0,,"CC BY-SA 2.5","<p><a href="http://rads.stackoverflow.com/amzn/click/0321193679" rel="nofollow"><strong>Professional Software Development</strong> -- Steve McConnell</a></p>
+
+<p>This book is aimed at everyone in the software field, especially programmers and software engineers. It specifically discusses advancing the profession of software engineering at all levels - individual, organization, and industry.</p>
+
+<p>This book is an expansion upon another book, also by Steve McConnell, After the Gold Rush.</p>
+",2010-09-14T12:47:09.770,
+,,2017-03-08T14:10:52.510,2,0,2,1,14,2776,,7,10,,"CC BY-SA 3.0","<p>It's interesting that point 8 now reads:</p>
+
+<pre><code>8. Do programmers have quiet working conditions?
+</code></pre>
+
+<p>when it used to read (something like)</p>
+
+<pre><code>8. Do programmers have their own office?
+</code></pre>
+
+<p>and the last paragraph still starts:</p>
+
+<blockquote>
+  <p>Now let's move them into separate offices with walls and doors.</p>
+</blockquote>
+
+<p>I was always suspicious of this test as in all the places I've worked - both as employee and visitor - the only people with their own offices are the directors and senior managers.</p>
+
+<p>Writing software in the real world is usually a team activity, you need to talk to your team-mates to bounce ideas around etc. and that is harder to do with people in separate offices even with instant messaging systems. Being able to draw things out and show people code and diagrams helps a great deal. This isn't to say that distributed teams can't work - they obviously can and do, that's just a different set of problems.</p>
+
+<p>What I would say is that each team needs to be in it's own office of 6-8 people (assuming that's the size of the team). That way they can interact without disturbing the other teams (if there are any) and get on with their work without being disturbed by the sales team or visitors (at one place I worked you came through the front door straight into the development area).</p>
+
+<p>If you are working with other developers, but each is working on separate projects, then a shared office <em>can</em> be useful - but only if you are strict about taking meetings to the meeting room and respecting other people's deadlines etc.</p>
+
+<p>Most of the others are self evident truths.</p>
+",2010-09-15T22:04:59.370,
+,,,2,0,4,0,0,4272,,8,0,,"CC BY-SA 2.5","<p>I think having a stand that can lift the monitor up to the correct eye level is pretty important. Yes you can use a monitor stand but these take up desk space converting the footprint of an LCD back into that of a CRT.</p>
+
+<p>I know you can get desks that are split so you can have the front and back on different levels, but these are bl***y expensive.</p>
+
+<p>My old DELL FP2001's are ideal in this respect. They are now getting on for 10 years old and I'm getting some "burn in" and I'd like to replace them, but all the newer monitors I've seen don't have the height.</p>
+",2010-09-16T12:15:04.113,
+,,2010-09-17T12:17:14.353,2,0,0,7,4,4714,,4,3,,"CC BY-SA 2.5","<p>I don't know what you mean by "rapid development web platforms". The definition of "rapid development" that I'm familiar with has nothing to do with languages, paradigms, or frameworks, but rather the use of rapid prototyping and iterative development to produce a system. Any language or framework can be used equally well.</p>
+
+<p>I've never used Grails or Roo before, but Django and Rails are both MVC frameworks, so their counterpart in .NET would be <a href="http://www.asp.net/mvc" rel="nofollow">ASP.NET MVC</a>.</p>
+",2010-09-17T12:10:06.140,
+,,,2,0,9,2,30,4765,,3,1,,"CC BY-SA 2.5","<p>When you're not enjoying (most of) the work.</p>
+
+<p>Only if you're very lucky will you have job that 100% enjoyable 100% of the time, but if you find that most of the job isn't enjoyable any more then you're not doing yourself or your employer any favours by sticking around.</p>
+",2010-09-17T14:26:47.433,
+,,,2,0,8,0,7,4889,,9,0,,"CC BY-SA 2.5","<p>"Jack of all trades - master of none." springs to mind.</p>
+
+<p>Some programs require speed, others large amounts of memory or fast access to the disk. Some languages are good at one, but bad at another - I don't think you'd get a language that was good at all.</p>
+
+<p>So, while you can write virtually any program in any language, what you get isn't guaranteed to be the "best" program you could write to solve that problem.</p>
+",2010-09-17T19:51:39.147,
+,,,2,0,5,7,6,5341,,10,0,,"CC BY-SA 2.5","<p>You have to try to isolate what's different about that machine/environment to every other machine/environment where your application works.</p>
+
+<p>That will involve checking the state of your application by adding diagnostics, checking the state of the machine - which may involve remote logging or even physical access, and checking what the user is doing at every step of the way.</p>
+
+<p>I've had many problems that only repeated for one user or on one machine and it was only by understanding what they were doing and how they were doing it were we able to resolve things.</p>
+",2010-09-19T21:08:20.223,
+,,2013-03-06T15:01:45.643,2,0,7,8,11,6246,,9,7,,"CC BY-SA 3.0","<p>While it is possible to use version control with stored procedures (for example the Redgate database tools integrate with TFS), it's not always as straight forward as it is with application code.</p>
+
+<p>My default position is that logic should be kept out of the database layer, however, there are times when it would be more efficient to implement the logic in the database. If that's the case then you must make sure you can track changes to this code.</p>
+",2010-09-22T11:49:37.517,
+,,2012-02-06T12:33:15.177,2,0,1,7,16,7000,,1,7,,"CC BY-SA 3.0","<p>No matter how good you are, it will be unlikely that you'll come up with a better scheme of managing threads etc. than the <em>teams</em> developing the language and compiler you are writing your code in.</p>
+
+<p>If you need your application to be multi-threaded then create the threads you need and let the compiler and OS get on with their jobs.</p>
+
+<p>You do need to be aware of how those threads are managed so you can make best use of the resources. Not creating too many threads is one thing that springs to mind as an example.</p>
+
+<p>You also need to be aware of what is going on (see Lorenzo's comment) so you can provide hints to the thread management (or override it in special cases), but I would have thought that these would be few and far between.</p>
+",2010-09-24T11:43:25.050,
+,,,2,0,3,4,11,7347,,9,5,,"CC BY-SA 2.5","<p>Bear in mind that your compiler may well turn:</p>
+
+<pre><code>for(int i = 0; i &lt; collection.length(); i++ ){
+   // stuff here
+}
+</code></pre>
+
+<p>into:</p>
+
+<pre><code>int j = collection.length();
+for(int i = 0; i &lt; j; i++ ){
+   // stuff here
+}
+</code></pre>
+
+<p>or something similar, if <code>collection</code> is unchanged over the loop.</p>
+
+<p>If this code is in a time critical section of your application it would be worth finding out whether this is the case or not - or indeed whether you can change the compiler options to do this.</p>
+
+<p>This will maintain the readability of the code (as the former is what most people will expect to see), while gaining you those few extra machine cycles. You are then free to concentrate on the other areas where the compiler can't help you.</p>
+
+<p>On a side note: if you change <code>collection</code> inside the loop by adding or removing elements (yes, I know it's a bad idea, but it does happen) then your second example either won't loop over all the elements or will try to access past the end of the array.</p>
+",2010-09-26T16:18:46.970,
+,,2010-10-02T22:58:59.273,2,0,2,6,8,7502,,3,2,,"CC BY-SA 2.5","<p>There's really only one question you need to answer:</p>
+
+<blockquote>
+  <p>Is there a demand for the application to be translated into one (or more) other language?</p>
+</blockquote>
+
+<p>If the demand is there then you need to look into translation. There may be political (both with a lower case "p" and upper case "P" - bilingual countries like Canada spring to mind), social or ethical reasons that need to be considered as well as the cost.</p>
+
+<p>As to the methodology - when I worked on software that was translated we got our German and French distributors to do the translation. The benefit of this is that you are using someone who knows the product and will (hopefully) choose the most appropriate translation when more than one is available.</p>
+
+<p>If you don't have distributors familiar with the language then there are services available that will do the translation for you.</p>
+
+<p>Failing that there's always Google Translate :)</p>
+",2010-09-27T07:52:32.560,
+,,,2,0,7,4,7,7861,,0,5,,"CC BY-SA 2.5","<p>If the first interview is with an HR rep who knows nothing about the job. Way too bureaucratic for me.</p>
+",2010-09-29T00:53:58.623,
+,,2021-05-05T08:22:18.420,2,0,10,7,89,9576,,7,9,,"CC BY-SA 4.0","<p>I've been in software development all my working life from junior developer, through senior developer to team lead/manager and now back developing (though hoping to get back into management sooner rather than later).</p>
+<p>My working life is now nearly 40 years and in that time I've changed domains and technologies as the companies I've worked for have changed. I've then used that new experience to find new positions when I've had to, which has in turn led to other new domains and technologies.</p>
+<p>All that time I've known developers as old or older than me.</p>
+<p>I think &quot;burn out&quot; happens if you try to do too much - working 12+ hour days and/or weekends for extended periods and happens in any industry not just computing. I know that if I had to do that I'd be looking for something less stressful to do.</p>
+<p>If you find a working style that fits your temperament then there's no reason why you can't continue working until you retire at 65 (or when ever).</p>
+",2010-10-05T12:08:02.277,
+,,,2,0,1,7,0,9675,,2,0,,"CC BY-SA 2.5","<p><strong>Adobe Flash/Flex</strong></p>
+
+<p>(not sure if that was being ruled out in your question)</p>
+
+<p>Runs in nearly all browsers, most mobile platforms and with AIR, most desktop platforms.</p>
+
+<p>Read: <a href="http://business2press.com/2010/09/11/adobe-reversi-allows-developers-to-make-single-app-for-different-platforms/" rel="nofollow">http://business2press.com/2010/09/11/adobe-reversi-allows-developers-to-make-single-app-for-different-platforms/</a></p>
+
+<p>Watch: <a href="http://www.youtube.com/watch?v=22vicDlzmkI&amp;feature=player_embedded" rel="nofollow">http://www.youtube.com/watch?v=22vicDlzmkI&amp;feature=player_embedded</a></p>
+",2010-10-05T17:44:34.823,
+,,2010-10-05T20:26:59.353,2,0,8,3,7,9741,,2,1,,"CC BY-SA 2.5","<p>What version of Windows are your users on?</p>
+
+<p>If it's Windows Vista they'll have .NET 3 installed by default and if it's Windows 7 they'll have version 3.5. <a href="http://en.wikipedia.org/wiki/.NET_Framework">Source</a>.</p>
+
+<p>That doesn't help if they're on XP, but as Microsoft have just stopped support for SP2 they should be on SP3.</p>
+
+<p>If you use something like "ClickOnce" (there are other installers available) you can make the relevant version of the .NET framework a prerequisite and it will download and install it for you - <strong>it's not included in your installer</strong>. If you are worried about the <em>size</em> of the download you could go to .NET 3.5 or 4 and make the <a href="http://msdn.microsoft.com/en-us/library/cc656912.aspx">Client Profile</a> which is a much smaller download, though the .NET 4 version is more flexible.</p>
+",2010-10-05T20:15:58.430,
+,,2016-04-05T11:12:11.073,2,0,10,4,21,9872,,1,1,,"CC BY-SA 3.0","<p>Of course, but only those that are relevant to the job you are applying for. they don't have to be limited to the ones asked for in the job requirements, but you shouldn't include <em>everything</em>.</p>
+
+<p>It shows that you are more than a "one trick pony" and have skills beyond those required for your current (and prospective job). It helps highlight the experience you have and shows that you can adapt to new technologies etc. as the need arises.</p>
+
+<p>You should indicate how long ago it was you last used that language, how long you had been using it and what you were doing with it. In much the same way as you indicate how long you've been using your current skill set and what you've been doing with that.</p>
+",2010-10-06T12:25:19.840,
+,,2010-10-08T09:55:39.000,2,0,2,7,11,10340,,10,4,,"CC BY-SA 2.5","<p>Give it away :)</p>
+
+<p>Given that virtually all anti-piracy measures can be circumvented if someone is determined enough there's an argument for not doing anything.</p>
+
+<p>Make your software useful and offer support to those that pay, thus getting the revenue and dedicated users.</p>
+
+<p>One way to get revenue could be to have a "pro" version that unlocks extra features that needs to be paid for. This seems to be a popular approach. You need to be make sure that the unlocking of the pro features is a) easy for the customer but b) hard for the hacker.</p>
+",2010-10-07T22:13:08.313,
+,,,2,0,7,5,8,10334,,4,1,,"CC BY-SA 2.5","<p>My current job is building a Silverlight business application (as was my previous one) so you could see that as an argument for saying "yes it is for business applications"!</p>
+
+<p>The current application is at its early stages and there are issues with Silverlight (even SL 4) that may cause us problems, but we'll be able to work round them in the short term and address then when new versions are released.</p>
+
+<p>One of the things that I (and my boss) think is that Silverlight offers you a way to build desktop type applications for the web. Ultimately it might not be the best technology for this, but at the moment it seems to be the one that offers the greatest chance of succeeding.</p>
+",2010-10-07T22:27:54.710,
+,,2017-04-12T07:31:28.533,2,0,4,8,78,10736,,8,8,,"CC BY-SA 3.0","<p>You need to trust your developers.</p>
+
+<p>Virtually all professional developers won't steal your source. It's understood that if you work for somebody else, it's the employer that owns the code that you write. Developers <em>might</em> copy code for reference purposes, but it's highly unlikely they will offer it for sale to anyone else. If they did offer it for sale to a new employer then the likely outcome is them being shown the door and possibly even arrested (as <a href="https://softwareengineering.stackexchange.com/users/1696/bob-murphy">Bob Murphy</a> points out in <a href="https://softwareengineering.stackexchange.com/questions/10736/how-to-manage-a-closed-source-high-risk-project/10738#comment14744_10738">his comment</a>). Getting caught isn't worth the risk.</p>
+
+<p>More importantly, distrust breeds distrust. Disabling USB ports and DVD writers will engender a feeling of distrust which will, paradoxically, make it more likely that the developers will copy the code.</p>
+
+<p>By all means add a secrecy clause to your contract, but it's probably unnecessary to highlight it as the most important part of the contract. </p>
+",2010-10-09T17:07:12.707,
+,,,2,0,5,4,12,10989,,3,1,,"CC BY-SA 2.5","<p>I think it means that each program should be written specifically for the hardware and operating system it runs on.</p>
+
+<p>I think what he's driving as is that general purpose code that can run on several platforms is less efficient or more error prone than code written specifically for and tailored to one platform. It does, however, mean that when you develop like this you have to maintain several different code lines.</p>
+",2010-10-11T12:10:48.867,
+,,2017-06-22T10:03:55.757,2,0,5,6,95,223634,,2,9,,"CC BY-SA 3.0","<p>Regular expressions - particularly non trivial ones - are potentially difficult to code, understand and maintain. You only have to look at the number of questions on Stack Overflow tagged <a href="https://stackoverflow.com/questions/tagged/regex"><code>[regex]</code></a> where the questioner has assumed that the answer to their problem is a regex and have subsequently got stuck. In a lot of cases the problem can (and perhaps should) be solved a different way.</p>
+
+<p>This means that, if you decide to use a regex you now have two problems:</p>
+
+<ol>
+<li>The original problem you wanted to solve.</li>
+<li>The support of a regex.</li>
+</ol>
+
+<p>Basically, I think he means you should only use a regex if there's no other way of solving your problem. Another solution is probably going to be easier to code, maintain and support. It may be slower or less efficient, but if that's not critical ease of maintenance and support should be the overriding concern.</p>
+",2010-10-11T13:32:33.800,
+,,,2,0,6,1,30,11120,,8,3,,"CC BY-SA 2.5","<p>You are in a good position here as your old company has asked you for help.</p>
+
+<p>Take the following steps;</p>
+
+<ol>
+<li>Get the agreement of your new employer</li>
+<li>Decide on how much time you are prepared to spend on this and <em>when</em> you want to spend that time.</li>
+<li>Pick a sensible hourly rate - ask a recruitment agency in your area what the average is and charge that.</li>
+<li>Agree on how much notice your old employer must give you for a request for work.</li>
+<li>Agree when and how your old employer can contact you. You don't want them ringing you at your new employer so e-mail conversations is probably best.</li>
+</ol>
+
+<p>Be prepared to negotiate - while you are in a good position if you ask for too high a rate (for example) they might suddenly find that they have the skills in-house after all.</p>
+",2010-10-11T22:10:17.113,
+,Sergio,2011-02-24T12:40:48.583,2,0,7,10,5,11002,,9,2,,"CC BY-SA 2.5","<p>Although it's not exclusive to UML, I use <a href="http://live.gnome.org/Dia" rel="nofollow noreferrer">Dia</a>. It has the symbols used in most (if not all) of the UML diagrams, but it also supports flowcharts, network diagrams, and a few other things that I've occasionally used as a software engineer.</p>
+
+<p><img src="https://i.stack.imgur.com/fTRI3.png" alt="enter image description here"></p>
+",2010-10-14T22:30:21.403,
+,,2011-11-13T13:33:07.043,2,0,7,8,1,12133,,0,1,,"CC BY-SA 3.0","<p>Changing requirements is something that you need to deal with in the process, and the techniques from the agile methods help with that. As far as UML, or any other diagram or document produced, is concerned, the purpose is to document the system. There's very little relationship between managing change and the system documentation, aside from the fact that having accurate and useful documentation makes it easier to understand the system, analyze the change request, and come up with estimates on the work needed to be done.</p>
+
+<p>Depending on your organizational structure, the business managers probably don't care about the design or implementation details of the system (and therefore don't care about having UML or any type of design documentation). They see feature requests and defect reports and assess the value added to the system by fixing these defects or adding those features, and prioritize based on the business objectives. The technical managers might be more interested in the system architecture, design, and some implementation details in as much as it affects utilization and assignments of engineers.</p>
+
+<p>Typically, there should be some kind of change control process that involves team members responsible for business/project management, technical management, and quality assurance. It doesn't matter what they use for making decisions, but the business/project manager should be prioritizing requests based on value added/marketing needs, the technical manager should be pushing back on requests that are not feasible due to engineering constraints (current design, implementation, people are already assigned to higher priority tasks, lack of resources).</p>
+
+<p>In such a scenario, having a formal, consistent design notation (such as UML) would assist the technical manager (and perhaps software quality engineers) understand the system and be able to present their argument and rationale for pushing back on the changes, but they wouldn't show the UML models to non-technical stakeholders. I would recommend using UML and other standardized modeling techniques to simplify and streamline communication between technical stakeholders and within the team, but showing UML to business and non-technical stakeholders is most likely futile.</p>
+",2010-10-14T22:40:29.810,
+,,,2,0,6,9,18,12133,,5,9,,"CC BY-SA 2.5","<p>Your problem is a lack of communication between you and your managers/stakeholders.</p>
+
+<p>They don't understand the problems that making frequent changes can cause - even if you have an agile process in place.</p>
+
+<p>But equally the developers don't understand the need that the program is designed to solve or the business process as well as you should.</p>
+
+<p>Why do I say this?</p>
+
+<p>If the managers were familiar with the development process then they'd know when was the appropriate time to request changes - before the start of the next sprint, or when the design document for the next phase was being written etc.</p>
+
+<p>If the developers understood the problem better then the product would be closer to the needs of the stakeholders.</p>
+
+<p>You need to address the communication issue and put in place procedures to manage the change - because change <strong>will</strong> happen.</p>
+
+<p>Hiding behind UML diagrams (or specifications, or even story cards) isn't going to solve the problem.</p>
+",2010-10-14T23:21:47.490,
+,,,2,0,2,1,6,12572,,2,2,,"CC BY-SA 2.5","<p>Make sure that you apply some of the techniques in your day-to-day programming as soon as possible.</p>
+
+<p>I find that if I don't immediately apply things I've learnt I have to re-visit them when I do actually need them.</p>
+",2010-10-17T20:19:21.750,
+,,,2,0,8,1,19,12672,,2,0,,"CC BY-SA 2.5","<p>Time/deadline pressures are one reason.</p>
+
+<p>If you are up against a tight deadline and you've got your boss breathing down your neck (possibly literally!) then doing this and thinking "I'll come back and fix this later" is very tempting and might be the only thing you can do.</p>
+
+<p>Of course the number of times you actually go back and fix it properly are very few and far between because you have a new problem that needs fixing yesterday.</p>
+",2010-10-18T12:03:36.743,
+,,2015-08-05T11:15:35.140,2,0,8,2,102,13470,,7,13,,"CC BY-SA 3.0","<p>Assuming that you've made your decision to leave, you should put it in writing. Whether this is an actual letter, an e-mail or a form you fill out will depend on the company and culture, but it should be written down and not a phone call, text message or even just face to face. If you do one of the latter things it's only polite to follow it up in writing.</p>
+
+<p>The amount of notice should be in your contract - assuming you have one. Even if you didn't sign the contract you should abide by its terms. By working and getting paid you and the company are working to that contract even if it's not "official". If nothing else you'll be seen to be doing "the right thing" and it will be harder for your employer to get you to work longer. If they want you to leave straight away you still should get paid as though you were working.</p>
+
+<p>You don't need to give any reasons for your decision.</p>
+
+<p>You should leave all files etc. you've worked on so that they are accessible to your manager, co-workers and anyone who follows you. A short document explaining what's what would be polite. <strong>Don't</strong> delete anything. The files/data aren't yours they are your employers.</p>
+
+<p>Once you've made your leaving official you should then talk to managers, co-workers etc. about how you can handle the hand over of information.</p>
+",2010-10-21T10:35:39.823,
+,,,2,0,7,6,7,14092,,9,1,,"CC BY-SA 2.5","<p>You have raised a very good question.</p>
+
+<p>You need to convey several pieces of information:</p>
+
+<ol>
+<li>How long have you being using the technology.</li>
+<li>What skill level you feel you are at.</li>
+<li>When you last used the technology.</li>
+</ol>
+
+<p>Unfortunately most recruiters just look for a single figure so that they can rank candidates and only send those that hit a "score" along to the prospective employer.</p>
+
+<p>You need to say something like:</p>
+
+<blockquote>
+  <p>1997 - 2004, developed 3D toolset and desktop applications using C and C++/MFC with Visual Studio 6.0</p>
+</blockquote>
+
+<p>This conveys all the above information, but doesn't fit in most forms.</p>
+",2010-10-23T14:05:28.323,
+,,2016-12-21T12:54:25.197,2,0,8,0,5,14441,,8,1,,"CC BY-SA 3.0","<p>This is on a par to measuring lines of code, or number of bugs - but slightly more sophisticated.</p>
+
+<p>At first glance there's nothing wrong with the measurement, but when you think about it you start raising objections:</p>
+
+<ul>
+<li>what about more complicated stories?</li>
+</ul>
+
+<p>is the most obvious one that springs to mind - I'm sure there are others.</p>
+
+<p>Your manager obviously thinks this is a good idea, so you need to be careful that when you raise objections you can also present solutions. This solution might have to be a modification to his scheme rather than a new scheme.</p>
+
+<p>So for example you might want to point out that someone who just works on "easy" stories will complete more than someone who works on a more "difficult" one and this <em>might</em> lead to a concentration on the less important aspects of the development. So one solution might be to consider the number of story points rather than just the number of stories.</p>
+",2010-10-25T12:00:50.950,
+,,,2,0,1,1,2,14524,,0,0,,"CC BY-SA 2.5","<p>For C# code as well as FxCop (as mentioned by Todd) there's <a href="http://code.msdn.microsoft.com/sourceanalysis" rel="nofollow">StyleCop</a>.</p>
+
+<blockquote>
+  <p>StyleCop analyzes C# source code to enforce a set of style and consistency rules. It can be run from inside of Visual Studio or integrated into an MSBuild project.</p>
+</blockquote>
+
+<p>It checks for different, complementary, things and can be useful.</p>
+
+<p>Though, as for FxCop, don't run <em>all</em> your code through it in one go. The "errors" will overwhelm you.</p>
+",2010-10-25T19:45:00.737,
+,,,2,0,10,8,16,14720,,2,3,,"CC BY-SA 2.5","<p>Delegate.</p>
+
+<p>Assuming that the 25 developers will be working on different aspects of the application, split them into sub-teams and nominate 1 member of each team to be the team leader. (NOTE: This role should move around as the project develops and the teams get reshuffled).</p>
+
+<p>Now you have 5 team leads to motivate and they in turn have 4 developers to motivate.</p>
+
+<p>You can concentrate on the "global" motivators (like stock options etc.) while your team leads can concentrate on the individual motivators (being allowed to leave early on a Wednesday).</p>
+
+<p>Make sure you are consistent and the team leads communicate their actions with you and each other to avoid unnecessary frictions.</p>
+",2010-10-26T11:10:31.093,
+,,,2,0,3,9,6,15208,,9,1,,"CC BY-SA 2.5","<p>Well - interesting problem. You forgot to mention that you can have a Silverlight full trust application as of SL4, so if you're thinking of WPF you might want to consider that instead. It would need installing (ClickOnce), but you seem to be moving away from that.</p>
+
+<p>I've not done anything with OOB yet, but I'm pretty sure that the same binary can be used both in broswer and out of browser as it's a project setting rather than a separate build target.</p>
+
+<blockquote>
+  <p>"Enable running application out of the browser"</p>
+</blockquote>
+
+<p>on the Silverlight project's Silverlight tab.</p>
+
+<p>So there'd be no separate maintenance issue there.</p>
+
+<p>You can build a fair amount of code into the web application that hosts the Silverlight app and communicate using WCF RIA Services - again you'd have to go with .NET 4 and SL 4 to get version 1.0 of this. .NET 3.5 and SL 4 only supports the WCF RIA services beta. This would reduce a) the size of the download and b) the amount of code that would need to execute on the client but would increase the network traffic.</p>
+
+<p>On that score you can split your Silverlight code into several assemblies and using something like Prism set them to load on demand. This means that the user only downloads those parts of the application they are actually using. You can further reduce the amount downloaded by checking the</p>
+
+<blockquote>
+  <p>"Reduce XAP size by using application library caching"</p>
+</blockquote>
+
+<p>option.</p>
+
+<p>If you have an "extmap" file to go with any external dlls (third party or .NET) then this means that they get bundled into a zip file and downloaded separately to be shared across all xap files in your project. This keeps the individual xap files to their minimum size and ensures that you only have one copy of these other dlls on the client machine.</p>
+",2010-10-27T23:14:03.603,
+,,,2,0,6,2,6,15528,,4,2,,"CC BY-SA 2.5","<p>I don't know Mantis specifically, but can it be configured to monitor an e-mail address and automatically generate reports from them? I know other systems (like JIRA for example can).</p>
+
+<p>The problem then becomes it getting them to use the right e-mail address!</p>
+",2010-10-29T11:49:17.640,
+,,,2,0,4,8,3,15681,,7,0,,"CC BY-SA 2.5","<p>You can actually develop Silverlight applications with the Web Express edition of Visual Studio so the Pro version would work to.</p>
+
+<p>I'd also recommend getting Expression Blend - if only to get access to the options for copying and modifying style templates.</p>
+",2010-10-30T13:24:16.200,
+,,,2,0,1,5,2,15874,,2,0,,"CC BY-SA 2.5","<p>As well as the knowledge sharing mentioned by the others, find examples of bugs that would have been found during a code review and measure how long they took to fix - this includes the time spent researching the problem and releasing the patched version as well as the actual time fixing the bug.</p>
+
+<p>Take this cost, which will probably be a least a couple of days effort, and contrast it to the time you would have spent on a code review and acting on the results.</p>
+
+<p>This will show your boss that code reviews are worth the expense.</p>
+",2010-10-31T12:40:13.673,
+,,,2,0,3,10,2,16528,,1,0,,"CC BY-SA 2.5","<p>Personally I go with brackets.</p>
+
+<p>Why?</p>
+
+<p>Well if anyone comes along and needs to add code into the if statement it's 100% clear where the scope is.</p>
+
+<p>It keeps the format of <code>if</code> statements consistent no matter how many statements there are in the block.</p>
+
+<p>However, if the project style is to go without, stick to that.</p>
+",2010-11-03T14:48:59.117,
+,,2010-11-09T12:41:42.740,2,0,5,2,18,17843,,6,5,,"CC BY-SA 2.5","<p>Agile is the generic term for the methodology.</p>
+
+<p><a href="http://en.wikipedia.org/wiki/Extreme_Programming">XP</a> and <a href="http://en.wikipedia.org/wiki/Scrum_%28development%29">Scrum</a> are the specific names for different implementations of that methodology.</p>
+
+<p>The Wikipedia pages are probably good starting points for further reading- check the "References" and "Further Reading" sections at the bottom of each page, but you should look into each and other implementations further before deciding on the one that works for you, or (as others have pointed out) the bits of each implementation that work for you.</p>
+",2010-11-09T09:42:49.357,
+,,,2,0,2,3,12,18495,,8,4,,"CC BY-SA 2.5","<p>What you should bear in mind at all times is that for most of your professional life you <strong>don't own the code that you write</strong>.</p>
+
+<p>If you are an employee the software is owned by the company. If you are a contractor the software is owned by the company. If you are a freelancer then the software is owned by the client. Only if you <em>are</em> the company/client is the software owned by you.</p>
+
+<p>Once you realise this then there's less of the "this is <em>my</em> code" thoughts and attitude. Yes, it still happens and it's only human nature to get upset if someone criticises what you've just produced, but by taking that step to try to remove the attachment it should be less of a blow.</p>
+
+<p>From the other side when you are reviewing the code produced by someone else concentrate on what the code does and how it does it and <strong>be constructive</strong> when suggesting improvements.</p>
+",2010-11-11T21:16:07.247,
+,,,2,0,3,8,2,18579,,4,0,,"CC BY-SA 2.5","<p>It's not dead as it still works, but if it's not being developed further then it can make sense to move to something else.</p>
+
+<p>However, if it works for your application there's no point in changing for the sake of changing.</p>
+",2010-11-12T08:56:30.053,

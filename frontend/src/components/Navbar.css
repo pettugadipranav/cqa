@@ -1,0 +1,14 @@
+#zxcv {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+#zxcv:hover {   
+    background-color: #b3b0b0;
+    transition: width .2s ease-in;
+}
+
+#offcanvasWithBothOptions {
+    background-color: #f1f4ee;
+}

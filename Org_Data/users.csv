@@ -1,0 +1,188 @@
+account_id,reputation,views,down_votes,up_votes,display_name,profile_image_url,website_url,about_me,creation_date,last_access_date,password
+-1,1,670,56998,142226,Community,NULL,http://meta.stackexchange.com/,"<p>Hi, I'm not really a person.</p>
+
+<p>I'm a background process that helps keep this site clean!</p>
+
+<p>I do things like</p>
+
+<ul>
+<li>Randomly poke old unanswered questions every hour so they get some attention</li>
+<li>Own community questions and answers so nobody gets unnecessary reputation from them</li>
+<li>Own downvotes on spam/evil posts that get permanently deleted</li>
+<li>Own suggested edits from anonymous users</li>
+<li><a href="http://meta.stackexchange.com/a/92006">Remove abandoned questions</a></li>
+</ul>",2010-09-01T17:32:37.120,2010-09-01T17:32:37.120,-1
+1,6757,7881,30,121,"Jeff Atwood",NULL,https://blog.codinghorror.com/,"<p><a href="https://blog.codinghorror.com/stack-overflow-none-of-us-is-as-dumb-as-all-of-us/" rel="nofollow noreferrer">Stack Overflow Valued Associate #00001</a></p>
+<p>Wondering how our software development process works? <a href="https://www.youtube.com/watch?v=qM4zMofsI7w" rel="nofollow noreferrer">Take a look!</a></p>
+<p>Find me <a href="https://twitter.com/codinghorror" rel="nofollow noreferrer">on twitter</a>, or <a href="https://blog.codinghorror.com/" rel="nofollow noreferrer">read my blog</a>. Don't say I didn't warn you <em>because I totally did</em>.</p>
+<p>However, <a href="https://blog.codinghorror.com/farewell-stack-exchange/" rel="nofollow noreferrer">I no longer work at Stack Exchange, Inc</a>. I'll miss you all. Well, <em>some</em> of you, anyway. :)</p>",2010-09-01T19:47:29.380,2022-10-07T00:20:10.867,1
+2,101,142,0,8,"Geoff Dalgas",https://i.stack.imgur.com/nDllk.png?s=128&g=1,http://stackoverflow.com,"<p>Dev #2 who helped create Stack Overflow currently working at Microsoft. I love all people willing to share their knowledge. Without community we are nothing.</p>
+<p>Find me on:</p>
+<p><a href="http://www.twitter.com/SuperDalgas" rel="nofollow noreferrer">Twitter</a>
+<br><br>
+<a href="http://blog.stackoverflow.com/2009/05/welcome-stack-overflow-valued-associate-00003/">Stack Overflow Valued Associate #00003</a></p>",2010-09-01T17:46:32.253,2020-10-21T12:41:57.133,2
+4,7074,10950,28,76,"Joel Spolsky",https://i.stack.imgur.com/C5gBG.jpg?s=128&g=1,https://joelonsoftware.com/,"<p>In 2000 I co-founded Fog Creek Software, where we created lots of cool things like the <a href="https://fogbugz.com" rel="nofollow noreferrer">FogBugz bug tracker</a>, <a href="https://trello.com" rel="nofollow noreferrer">Trello</a>, and <a href="https://glitch.com" rel="nofollow noreferrer">Glitch</a>. I also worked with <a href="https://stackoverflow.com/users/1/jeff-atwood">Jeff Atwood</a> to create <a href="https://stackoverflow.com">Stack Overflow</a> and served as CEO of Stack Overflow from 2010-2019.</p>
+
+<p>Today I serve as the chairman of the board for Stack Overflow, Glitch, and <a href="https://hash.ai" rel="nofollow noreferrer">HASH</a>.</p>
+
+<p>I served as a paratrooper in the Israeli army, graduated from Yale University in 1991, and spent time on the Excel team at Microsoft where I was the program manager responsible for the launch of VBA in Excel 5.0. I’ve also written four books, do a lot of Arduino stuff, and talk too much about Barry’s Bootcamp and Burning Man.</p>",2010-09-01T19:44:58.397,2021-12-09T03:09:56.600,4
+47,1025,80,0,8,cmcculloh,NULL,http://cmcculloh.com/,"<p>Advanced Software Engineer at Kroger Technology.</p>
+<p>Co-Author of HTML, XHTML and CSS All-in-one Desk Reference for Dummies.</p>
+<p>Graduated from IU with a Bachelors of Media Arts and Science and a Certificate in Applied Computer Science.</p>
+<p>Tech Editor for Building Facebook Applications for Dummies and Building Websites All-in-one for Dummies 2nd Edition.</p>
+<p>Creator and maintainer of the (long-since defunct) Status-bar Calculator Firefox and Chrome extensions.</p>
+<p>Well over a decade of professional JS experience, three years professional Java E-Commerce experience, and four years professional experience with PHP.</p>
+<p>Taught Server Side Programming with PHP and Mobile Applications Development at IUPUI.</p>",2010-09-01T19:52:33.467,2017-12-07T19:32:10.153,47
+445,77600,13773,97,1388,"Thomas Owens",https://i.stack.imgur.com/Ct4o3.jpg?s=128&g=1,https://thomasjowens.com/,"<p>Professionally, I'm a software engineer focusing on agile and lean software development and software process improvement. I work to help engineers, teams, and organizations be successful. I have experience with a wide variety of types of software, ranging from embedded systems to desktop applications to web applications.</p>
+<p>In my spare time, I'm a runner, a photographer, and a casual gamer.</p>
+<p>Find me on <a href="https://www.linkedin.com/in/thomasjowens/" rel="nofollow noreferrer">LinkedIn</a>, <a href="https://twitter.com/TomOwens" rel="nofollow noreferrer">Twitter</a>, <a href="https://www.reddit.com/user/TomOwens" rel="nofollow noreferrer">Reddit</a>, <a href="https://thomasjowens.medium.com/" rel="nofollow noreferrer">Medium</a>, <a href="https://github.com/ThomasOwens" rel="nofollow noreferrer">GitHub</a>, <a href="https://www.quora.com/profile/Thomas-Owens-3" rel="nofollow noreferrer">Quora</a>, and <a href="https://www.projectmanagement.com/profile/ThomasOwens/" rel="nofollow noreferrer">ProjectManagement.com</a>. Support my freely available (CC BY and CC BY-SA) content through <a href="https://www.paypal.com/paypalme/ThomasJOwens" rel="nofollow noreferrer">PayPal</a>, <a href="https://www.buymeacoffee.com/ThomasOwens" rel="nofollow noreferrer">Buy me a Coffee</a>, <a href="https://www.patreon.com/thomasjowens?fan_landing=true&amp;view_as=public" rel="nofollow noreferrer">Patreon</a>, or <a href="https://www.amazon.com/hz/wishlist/ls/3IJE9HCMA6LBN" rel="nofollow noreferrer">my Amazon Wishlist</a>.</p>",2010-09-01T19:24:29.257,2022-12-04T21:33:19.503,445
+2279,7067,537,16,85,"Brian R. Bondy",NULL,http://www.brianbondy.com,"<p><strong>About me:</strong><br/></p>
+
+<ul><li>C++, C#, Python, Win32, programming for 15+ years</li>
+
+<li>Graduate of the University of Waterloo;</li>
+
+<li>Married with twins boys and a red tri-colored border collie</li>
+<li>Microsoft MVP for Visual C++ July 2010 - July 2011</li>
+
+</ul>
+
+<p><strong>Links:</strong><br/></p>
+
+<ul><li><a href="http://www.brianbondy.com" rel="nofollow">Blog/Personal website</a>;</li>
+<li><a href="http://twitter.com/brianbondy" rel="nofollow">Twitter: @brianbondy</a>;</li>
+<li><a href="http://stackoverflow.com/questions/621900/best-way-to-search-for-a-saturation-value-in-a-sorted-list/621965#621965">
+African monkey vs European monkey throwing force</a>;</li></ul>",2010-09-01T19:39:21.467,2017-05-05T12:26:58.177,2279
+2348,336,44,0,81,Jeffrey,NULL,http://stackoverflow.com,"1-2-3-4.
+
+I declare a thumb war.",2010-09-01T19:33:14.897,2021-08-02T19:21:53.593,2348
+3579,3536,244,19,169,"Dan Dyer",https://i.stack.imgur.com/Qmh7D.jpg?s=128&g=1,https://dandyer.co.uk,"<p>Software developer. Mostly iOS (Objective-C and Swift), Android, Java, and Python (Django) with occasional Haskell.</p>",2010-09-01T19:39:44.913,2022-10-08T14:11:34.153,3579
+4188,210,8,2,16,"Jason Punyon",NULL,http://jasonpunyon.com,"<p>Chaotic Good w a splash of Data. Dad x2. Stack Overflow. He/him.</p>",2010-09-01T19:54:51.050,2022-11-11T19:29:58.913,4188
+7847,181,6,0,9,"Adam Neal",https://i.stack.imgur.com/awTqM.jpg?s=128&g=1,NULL,"<p>C# for work. Linux, Python, AWS for fun.</p>",2010-09-01T19:41:24.700,2020-01-20T20:18:29.320,7847
+9163,2672,124,14,251,Gelatin,https://www.gravatar.com/avatar/94d06629fa35471de63c4a428771db65?s=128&d=identicon&r=PG&f=1,NULL,"<p><a href="http://stackexchange.com/users/96cd77c96749488da80d0b30a9587b60">
+<img src="https://stackexchange.com/users/flair/9163.png">
+</a></p>",2010-09-01T19:50:31.280,2019-12-18T21:53:21.047,9163
+10331,879,45,13,46,"Niall C.",https://i.stack.imgur.com/ifVxa.jpg,http://diy.stackexchange.com/users/22,NULL,2010-09-01T19:46:36.240,2022-09-16T14:15:08.713,10331
+10668,290,35,1,62,Ikke,NULL,NULL,"<p>At young age I already had much interest for computers. It all started with a book about QBasic which got me hooked to programming. Experimented and made lots of little programs for myself. Later on, I started doing more with web development, mainly PHP. </p>
+
+<p>Nowadays I'm a professional webdeveloper mainly developping in PHP. In my own time I also do little projects in Python.</p>",2010-09-01T19:39:21.460,2022-09-06T20:47:15.400,10668
+13187,2866,83,0,126,epotter,NULL,https://www.apterainc.com,"<p>I am the Technical Strategist for Aptera, Inc.</p>",2010-09-01T19:43:34.653,2022-01-29T18:14:54.423,13187
+13822,181,16,0,5,"Refael Ackermann",NULL,https://about.me/refack,NULL,2010-09-01T19:39:12.013,2019-05-20T15:34:46.633,13822
+22986,459,16,0,96,yhw42,NULL,NULL,NULL,2010-09-01T19:50:21.437,2017-02-15T18:12:07.850,22986
+23619,38788,8352,536,927,ChrisF,https://i.stack.imgur.com/gIt1g.png?s=128&g=1,NULL,"<p>If you have any questions about the moderation on Software Engineering, please post a question on <a href="https://meta.softwareengineering.stackexchange.com">meta</a> or <a href="https://chat.stackexchange.com/rooms/21">chat</a>. <strong>Any off site attempts at communication about site matters will be ignored.</strong></p>
+
+<p>I've been a developer for over 30 years in one form or another. I learnt Pascal at University and my first job was programming in Fortran 66. I've since moved to C# & .NET via Ada, C and C++.</p>
+
+<p>Over the years I've worked for companies of all sizes from 3 person startups to multi-national organisations with 1000's of employees. I've also worked at all levels from junior programmer to team lead/technical architect and one stint as a manager. I've seen various development methodologies from classic waterfall to Scrum implemented and used with varying degrees of success.</p>",2010-09-01T19:54:39.650,2022-12-04T19:32:23.697,23619
+26217,9281,400,11,522,spong,https://i.stack.imgur.com/VI2SI.jpg?s=128&g=1,http://twitter.com/sunpech,"<p>Enjoys solving problems, technology, software development, food, reading, photography, blogging, and traveling.</p>
+
+<p>Social me:</p>
+
+<ul>
+<li><a href="http://www.twitter.com/sunpech" rel="nofollow">@sunpech</a></li>
+<li><a href="http://www.sunpech.com" rel="nofollow">sunpech.com</a></li>
+<li><a href="http://www.foodishappiness.com" rel="nofollow">foodishappiness.com</a></li>
+</ul>
+
+<h1>SOreadytohelp</h1>",2010-09-01T19:34:18.657,2018-07-10T05:55:27.817,26217
+29738,775,136,2,72,"Kevin Montrose",NULL,https://kevinmontrose.com,"<p><a href="http://blog.stackoverflow.com/2010/03/welcome-stack-overflow-valued-associate-000004/">Stack Overflow Valued Associate #00004</a></p>
+<p>For no good reason, <a href="http://twitter.com/kevinmontrose" rel="nofollow noreferrer">I'm on twitter</a>.  I hear its compelling... somehow.<br/></p>
+<p>I also have a <a href="http://kevinmontrose.com" rel="nofollow noreferrer">blog</a>.</p>",2010-09-01T19:45:27.863,2021-10-30T19:30:37.507,29738
+31259,650,30,0,33,Brandon,https://www.gravatar.com/avatar/f2dba8d26bd3c9552cd43e33883153a8?s=128&d=identicon&r=PG&f=1,NULL,"<p>.NET / Database Developer, primarily C# and SQL Server 2005 / 2008 (R2) / 2012 / 2014.  Agile evangelist for most of the companies I've worked for.</p>",2010-09-01T19:39:01.483,2022-08-04T16:14:14.583,31259
+31467,8643,361,6,232,BlairHippo,NULL,http://blairhippo.com,"<p>Professional computer nerd usually working in web applications.</p>",2010-09-01T19:35:31.240,2021-12-14T20:49:04.510,31467
+32917,100,6,4,12,"David Fullerton",https://i.stack.imgur.com/NK9sV.jpg?s=128&g=1,NULL,"<p>Officially voted <a href="https://twitter.com/df07/status/504677877544390656" rel="nofollow noreferrer">World's Okayest Boss</a> by a plurality of coworkers in 2014.</p>
+
+<p>Formerly:</p>
+
+<ul>
+<li>CTO / VP Eng at Stack Overflow</li>
+<li>New York (Careers &amp; Area 51) lead</li>
+<li>Stack Exchange 1.0 dev lead</li>
+<li><a href="http://www.fogcreek.com/" rel="nofollow noreferrer">Fog Creek Software</a> developer and <a href="http://www.fogcreek.com/jobs/summerintern/" rel="nofollow noreferrer">intern</a></li>
+</ul>",2010-09-01T19:54:29.020,2022-05-25T14:56:20.120,32917
+34933,99,158,6,6,"Robert Cartaino",https://www.gravatar.com/avatar/2711dff8fd580a3db6177262c2735ac6?s=128&d=identicon&r=PG&f=1,NULL,"<p><a href="http://blog.stackoverflow.com/2010/04/welcome-stack-overflow-valued-associate-00005/">Stack Exchange Valued Associate #00005</a></p>
+
+<p>I was the Director of Community Development for the Stack Overflow Network for 10 years (<strong>120 million</strong> visitors per month!)</p>
+
+<p><strong>CURRENTLY LOOKING FOR A NEW ADVENTURE:</strong></p>
+
+<p>If anyone is looking to develop their brand's online community with someone who has a heck of a track record in innovative product and feature design, let's talk!</p>
+
+<p>&#114;&#99;&#97;&#114;&#116;&#97;&#105;&#110;&#111;&#64;&#121;&#97;&#104;&#111;&#111;&#46;&#99;&#111;&#109;</p>",2010-09-01T17:52:59.380,2020-09-23T15:54:31.213,34933
+35754,101,3,0,7,kkaploon,NULL,NULL,"<p>developer :)</p>",2010-09-01T19:38:29.930,2015-11-06T10:00:17.810,35754
+36391,2830,246,4,339,nivlam,NULL,NULL,NULL,2010-09-01T19:54:08.833,2020-05-31T20:35:29.547,36391
+40051,101,16,0,9,balpha,https://i.stack.imgur.com/ECikk.jpg?s=128&g=1,https://social.balpha.de/@balpha,"<p>My name is Benjamin Dumke-von der Ehe. I worked for Stack Overflow from <a href="http://blog.stackoverflow.com/2010/06/welcome-stack-overflow-valued-associates-00006-and-00007">April 2010</a> to <a href="https://twitter.com/StackExchange/status/1111614261258870784" rel="nofollow noreferrer">March 2019</a> and then again from <a href="https://twitter.com/balpha/status/1523641670486704137" rel="nofollow noreferrer">May 2022</a> onwards.</p>
+<p>I am <a href="https://social.balpha.de/@balpha" rel="nofollow noreferrer">@balpha@social.balpha.de</a> on the fediverse (Mastodon). My <a href="http://balpha.de/about/" rel="nofollow noreferrer">blog's &quot;about&quot; page</a> explains the origin of my user name.</p>
+<p>I am the creator of <a href="https://github.com/balpha/go-unicornify" rel="nofollow noreferrer"><em>Unicornify</em></a>, the service that gives you these lovable creatures:</p>
+<p><img src="https://unicornify.pictures/avatar/1?s=64" alt="" /> <img src="https://unicornify.pictures/avatar/13?s=64" alt="" /> <img src="https://unicornify.pictures/avatar/3?s=64" alt="" /> <img src="https://unicornify.pictures/avatar/14?s=64" alt="" /> <img src="https://unicornify.pictures/avatar/5?s=64" alt="" /></p>
+<p>I also created <a href="https://github.com/balpha/lyfe" rel="nofollow noreferrer"><em>Lyfe</em></a>, a small library adding <code>yield</code>-based generators to JavaScript, and <a href="http://notarealquestion.appspot.com/" rel="nofollow noreferrer"><em>Not a Real Question</em></a>, a little game that's played with data from various Stack Exchange sites.</p>
+<p>I sometimes have a <a href="http://meta.stackexchange.com/questions/43418">strange</a> <a href="http://stackoverflow.com/questions/2057400">sense of</a> <a href="http://meta.stackexchange.com/questions/122781">humor</a>,
+but I also like to <a href="http://meta.stackexchange.com/a/74115">explain</a> <a href="http://stackoverflow.com/a/2055144">things</a> <a href="http://meta.stackexchange.com/a/75045">I fix</a>, <a href="http://meta.stackexchange.com/a/128705">break</a>, <a href="http://balpha.de/2012/07/an-unexcited-look-at-browser-sniffing" rel="nofollow noreferrer">care about</a>, or <a href="http://stackoverflow.com/a/11833858">come up with</a>.</p>",2010-09-01T19:54:45.183,2022-10-05T09:07:19.173,40051
+40545,11060,433,38,1181,Paddyslacker,NULL,http://www.slalom.com/,"<p>Software developer, business problem solver, husband, dad, and a man who knew The Rutles</p>",2010-09-01T19:50:08.620,2020-05-19T20:25:14.163,40545
+48266,1598,180,2,140,"Nathan Taylor",NULL,NULL,"<p>I am software developer, primarily web, with experience in ASP.NET MVC, ASP.NET, PHP, Classic ASP, SQL, MySQL, C#, XHTML, CSS, JavaScript, JQuery and more. I have been building websites for about 10 years now, and I love it as much as the day I started. My greatest development philosophy is to strive to build highly functional and interactive applications which surpass expectations and are exciting to use.</p>
+
+<p>To see what I'm working on, take a look at <a href="http://blog.nathan-taylor.net" rel="nofollow noreferrer">my blog</a> or <a href="http://github.com/lakario" rel="nofollow noreferrer">my github</a>.</p>
+
+<p>My professional CV can be found at: <a href="http://careers.stackoverflow.com/nathantaylor">http://careers.stackoverflow.com/nathantaylor</a>.</p>",2010-09-01T19:34:01.743,2022-09-02T16:22:42.370,48266
+48534,1118,37,0,84,"Josip Medved",NULL,https://www.medo64.com/,"<p>Born in Croatia, currently lives in the States. Known to friends as Medo. Likes programming and <a href="https://www.medo64.com/2009/01/cevapi/" rel="nofollow">chevaps</a>. In free time he writes a <a href="https://www.medo64.com/" rel="nofollow">blog</a>.</p>",2010-09-01T19:58:34.453,2022-11-26T20:45:08.507,48534
+53080,7367,742,136,744,"P Shved",NULL,http://coldattic.info,"<p>I work on self-driving cars and apply machine learning to help them understand the world around them.  Previously, I worked on servers at Google.  Before that, I made Linux Distros and static software analysis tools.</p>
+<p>My blog <strong><a href="http://coldattic.info/shvedsky/pro/blogs/a-foo-walks-into-a-bar" rel="nofollow noreferrer">&quot;A Foo walks into a Bar&quot;</a></strong> is hosted on my home site coldattic.info.</p>
+<hr />
+<p><em>This profile was last updated in 2020, and it gets updated every ~5 years.</em></p>",2010-09-01T19:46:08.517,2021-07-09T02:25:13.937,53080
+66679,141,2,0,0,Krispy,NULL,NULL,"<p>Developer Relations - Engineering Manager @ Credit Karma</p>",2010-09-01T19:57:34.573,2021-02-21T17:27:52.240,66679
+69030,1653,82,2,33,mpenrow,NULL,http://www.penrow.com,"<p>Professional software developer.  .NET code as a day job.  Very interested in Ruby and Rails and all things finance related in my spare time.</p>
+
+<p><a href="http://twitter.com/mpenrow" rel="nofollow">Twitter</a></p>",2010-09-01T19:25:48.300,2014-03-20T20:31:57.080,69030
+69872,7526,284,4,335,grokus,NULL,http://wikipedia.org,"<p>Software engineer.</p>
+
+<p><img src="http://projecteuler.net/profile/grokus.png" alt="Project Euler Flair."></p>",2010-09-01T19:52:31.017,2021-08-22T03:24:51.837,69872
+74184,14787,2217,401,953,Jonas,NULL,NULL,NULL,2010-09-01T19:36:13.740,2022-12-04T04:43:15.193,74184
+79630,3974,397,383,1280,apaderno,https://i.stack.imgur.com/G7HMF.png?s=128&g=1,NULL,"<p>I am a <a href="https://www.drupal.org" rel="nofollow noreferrer">Drupal fan</a>. I am a site moderator, user administrator, and Git administrator on Drupal.org. My task is blocking spammers, but also helping users with promoting their activity, their content, and the modules they host on Drupal.org.</p>",2010-09-01T19:54:01.080,2022-11-27T21:01:33.967,79630
+84476,179,42,2,96,"Gabriel Mongeon",NULL,http://www.gabrielmongeon.ca,"<ul>
+<li>I'm a lead software developer at <a href="http://www.spiria.com" rel="nofollow noreferrer">Spiria</a></li>
+<li>I was a proud owner of a 1987 Toyota Land Cruiser HJ60, and yes it's diesel!</li>
+<li>Microsoft C# MVP 2008-2012</li>
+</ul>
+<p>Follow me on Twitter @gmongeon</p>",2010-09-01T19:41:31.127,2022-10-11T18:00:41.400,84476
+86469,25869,2353,18,221,Fishtoaster,NULL,http://www.kevinkuchta.com,"<p>Software engineer at Joyable.com in San Francisco.  Graduated from the Rochester institute of Technology's Software Engineering program.  Did part-time Mac tech support for a couple years in school.  Got tired of big companies, so now I largely do startups.  I've been at Expensify, Threadflip, and Joyable.</p>",2010-09-01T19:28:45.987,2022-01-19T00:50:06.247,86469
+89917,528,74,2,90,derekerdmann,NULL,http://derekerdmann.com,NULL,2010-09-01T19:47:29.187,2022-11-17T20:37:21.853,89917
+102643,3286,183,13,330,DavRob60,NULL,https://www.teepublic.com/user/davrob60,"<p>I got my bachelor's degree in computer science at <a href="http://www.iro.umontreal.ca/?lang=en" rel="nofollow noreferrer">Université de Montréal</a> in 2002 after my DCS in Computer Science Technology form the <a href="http://www.colval.qc.ca/etudes/informatique.htm" rel="nofollow noreferrer">Collège de Valleyfield</a> in 1999. I currently work as a Programmer Analyst. </p>
+
+<p>-- -- -- -- -- -- -- ✂ -- -- -- cut here -- -- -- ✂ -- -- -- -- -- -- -- </p>
+
+<p>If I make funny phrase, it's because English is only my 3th language. The first one is French and the second one is a version of Basic that is old enough to have a line number in front of each statement.</p>
+
+<p>-- -- -- -- -- -- -- ✂ -- -- -- cut here -- -- -- ✂ -- -- -- -- -- -- -- </p>
+
+<p>Why davrob60? "Dav" is for David, "rob" is for Robitaille, 60 is meaningless.</p>
+
+<h1>SOreadytohelp</h1>",2010-09-01T19:36:18.587,2022-09-18T19:56:21.937,102643
+112788,7307,858,213,983,Wizard79,https://i.stack.imgur.com/Vd5zC.gif,http://www.xperia-x10.it/,"<p>I'm a software developer, I'm currently working on Windows CE and Linux in the automotive infotainment field. I'm unsatisfied of my company and generally of software industry in Italy. I would like to emigrate to the programmer's paradise.</p>",2010-09-01T19:33:40.450,2022-06-30T20:11:37.677,112788
+120116,1133,119,7,15,blucz,NULL,http://blucz.com,NULL,2010-09-01T19:33:49.193,2018-05-19T06:23:54.813,120116
+133778,9096,456,5,79,"Dan Ray",NULL,http://www.danray.net,"iPhone, PHP, Perl, LAMP.",2010-09-01T19:34:24.863,2021-06-28T13:21:43.387,133778
+138991,2270,318,0,336,"Wayne Werner",NULL,https://www.waynewerner.com,"<p>I'm a husband to my beautiful wife, father to our children, Computer Science graduate from University of Central Arkansas. I love my wife, our children, computers, playing guitar (especially singing/playing for my wife and/or kids), bicycling (including taking my kids for rides in my bike trailer), woodworking, airbrushing, digital and traditional artistry, playing games with my family (traditional and digital), my poor Chevette that I had to sell, throwing knives, firearms, knot tying, rope making, whip making, and really just learning new stuff in general. If I don't know about it I probably want to learn about it, if only so I can make informed decisions about it.</p>
+
+<p><p>
+My three favorite programming languages are Python, Lisp, and Assembly (though I'm not sure about the order of those last two languages...).</p>
+
+<p>I think the CANSPAM act is one of the dumbest pieces of legislation in the history of the universe</p>
+
+<p>I love Python and HTML+Javascript.</p>
+
+<p>I'm #SOreadytohelp (I really want a t-shirt, what can I say?)</p>",2010-09-01T19:45:31.717,2022-08-31T22:16:33.703,138991
+146165,976,69,14,173,HoLyVieR,NULL,http://holyvier.blogspot.com/,"<p>I live in Montreal, Quebec. I'm studying at l'ÉTS in Montréal. You can look at my <a href="http://careers.stackoverflow.com/olivierarteau">careers profile</a> for more information.</p>
+
+<p>If you enjoy Javascript and you live in Montreal, join <a href="http://js-montreal.org/" rel="nofollow">JS Montréal</a> meetup !</p>
+
+<p><img src="http://projecteuler.net/profile/HoLyVieR.png" alt="I also like math"></p>",2010-09-01T19:51:19.097,2019-06-26T22:25:38.667,146165
+148348,329,56,0,13,tsudot,NULL,NULL,"<p>At 23, I enjoy life, throw caution to the wind, dream of sky diving and love to code.</p>",2010-09-01T19:40:09.703,2020-02-25T16:03:50.920,148348
+148794,1390,84,0,21,"Cesar Canassa",NULL,http://canassa.com,"<p>Developer, mechanic and physician.</p>",2010-09-01T19:45:04.357,2022-07-05T22:00:26.917,148794
+149401,101,6,0,7,Pylsa,NULL,NULL,"<p>SO has abandoned its ideals some time ago</p>
+<ul>
+<li><a href="https://meta.stackexchange.com/questions/333965/firing-mods-and-forced-relicensing-is-stack-exchange-still-interested-in-cooper">https://meta.stackexchange.com/questions/333965/firing-mods-and-forced-relicensing-is-stack-exchange-still-interested-in-cooper</a></li>
+<li><a href="https://meta.stackexchange.com/questions/342039/firing-community-managers-stack-exchange-is-not-interested-in-cooperating-with">https://meta.stackexchange.com/questions/342039/firing-community-managers-stack-exchange-is-not-interested-in-cooperating-with</a></li>
+<li><a href="https://meta.stackexchange.com/questions/336526/stack-overflow-is-doing-me-ongoing-harm-its-time-to-fix-it">https://meta.stackexchange.com/questions/336526/stack-overflow-is-doing-me-ongoing-harm-its-time-to-fix-it</a></li>
+<li><a href="https://meta.stackexchange.com/questions/336731/to-reach-out-on-monica-the-lavender-community-and-the-future-of-the-stack-exc/336760#336760">https://meta.stackexchange.com/questions/336731/to-reach-out-on-monica-the-lavender-community-and-the-future-of-the-stack-exc/336760#336760</a> <a href="https://meta.stackexchange.com/questions/336639/what-if-anything-can-se-do-to-resolve-the-ongoing-conflict-in-a-timely-way/336642#336642">https://meta.stackexchange.com/questions/336639/what-if-anything-can-se-do-to-resolve-the-ongoing-conflict-in-a-timely-way/336642#336642</a></li>
+<li><a href="https://meta.stackexchange.com/questions/336177/feedback-post-moderator-review-and-reinstatement-processes/336280#336280">https://meta.stackexchange.com/questions/336177/feedback-post-moderator-review-and-reinstatement-processes/336280#336280</a></li>
+</ul>",2010-09-01T19:57:33.140,2020-11-04T05:46:03.050,149401
+167020,991,46,0,8,Tobiasopdenbrouw,NULL,http://twitter.com/#!/Tobiasopdenbrou,NULL,2010-09-01T19:33:31.457,2014-10-06T13:57:22.100,167020

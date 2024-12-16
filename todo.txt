@@ -1,0 +1,46 @@
+Database Part:
+
+Create a database named cqadb
+create constraints -->Foreign key on delete set cascde
+Extra numeric constraints like >=0 <0 
+
+
+Website Part:
+*Signup page 
+mysqlimport --ignore-lines=1 \
+            --fields-terminated-by=, \
+            --local -u root \
+            -p sample \
+             Tags.csv
+             
+             
+ LOAD DATA INFILE '/home/rohith/Desktop/Sem4Mat/DBMS/As2/CSV_Views/Tags.csv' 
+INTO TABLE tags 
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+
+
+ LOAD DATA INFILE '/var/lib/mysql-files/Tags2.csv' 
+INTO TABLE tags 
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+
+
+sudo snap install mysql-workbench-community
+
+
+
+
+sudo snap connect mysql-workbench-community:password-manager-service :password-manager-service
+
+Users data done
+Posts data done
+Badges data done
+comments query done
+tags data done
+tag-posts need to done manually
+post-history query done

@@ -1,0 +1,42 @@
+tags done
+users done
+badges pending
+tag_posts tbd
+posts daata invalid
+comments
+
+
+
+post_id:134
+
+1)question :"how to print first 10 numbers in c"
+  tags:"c","c++"
+  answers: i)"use for loop"
+  		tags:c_for-loop
+  	   ii)"use while loop"
+  	   	tags:c_for-loop
+  	   iii)"by taking input from users"
+  	   iv)"by declaring intiallyy"
+  	   
+  	   
+  	   
+post_id:142
+
+2)qusstion:"how to use for loop in java and python"
+  tags:"java","python"
+  answers: i)"for(i in 1 to 10)"
+  	   ii)"for(i=0;i<10;i++){ }"
+  	        
+  	        
+  	        
+  	        
+insert into posts values(104,'Joel Spolsky','Joel Spolsky',now(),1,0,12,3,9,142,123,1,2,'for java','te',"for(i=0;i<10;i++){ }",now(),now());
+ insert into posts values(103,'Joel Spolsky','Joel Spolsky',now(),1,0,12,3,9,142,123,1,2,'for python','te',"for(i in 1 to 10)",now(),now());
+insert into posts values(102,'Krispy','Krispy',now(),1,0,12,3,9,134,123,1,2,'op','te',"by taking input from users",now(),now());
+ insert into posts values(101,'Krispy','Krispy',now(),1,0,12,3,9,134,123,1,2,'op','te',"use while loop",now(),now());
+ insert into posts values(100,'Krispy','Krispy',now(),1,0,12,3,9,134,123,1,2,'op','te',"use for loop",now(),now());
+ 
+ insert into posts values(134,'Joel Spolsky','Joel Spolsky',now(),0,0,12,3,9,0,123,1,2,'printing 10 numbers','tt',"how to print first 10 numbers in c",now(),now());
+Query OK, 1 row affected (0.00 sec)
+insert into posts values(142,'Joel Spolsky','Joel Spolsky',now(),0,0,12,3,9,0,123,1,2,'printing 10 numbers','tt',"how to print first 10 numbers in c",now(),now());insert into posts values(142,'Joel Spolsky','Joel Spolsky',now(),0,0,12,3,9,0,123,1,2,'for loop','te',"how to use for loop in java and python",now(),now());
+
